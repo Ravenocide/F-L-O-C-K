@@ -1,0 +1,7 @@
+embed=discord.Embed(title="Welcome to the FLOCK Discord", url='https://www.youtube.com/ravenocide', description="Welcome! Please read the rules below, and the FAQ's. Come chat with us!~")
+embed.set_thumbnail(url='https://imgur.com/5P7fku1')
+embed.add_field(name="fff", value="ddd", inline=True)
+embed.add_field(name="ddd", value="ddd", inline=True)
+embed.add_field(name="ddd", value="ddd", inline=False)
+embed.add_field(name="undefined", value="undefined", inline=False)
+await self.bot.say(embed=embed)
